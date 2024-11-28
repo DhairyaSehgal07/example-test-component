@@ -6,7 +6,7 @@ import {
   TContext
 } from '@incorta-org/component-sdk';
 import React from 'react';
-
+import SpreadsheetDemo from './components/SpreadsheetDemo';
 interface Props {
   context: Context<TContext>;
   prompts: AppliedPrompts;
@@ -18,7 +18,7 @@ const MyComponent = ({ context, prompts, data, drillDown }: Props) => {
   console.log({ context, prompts, data, drillDown });
   return (
     <div className="test">
-      <h1>Hello Incorta Component</h1>
+      <SpreadsheetDemo />
     </div>
   );
 };
