@@ -10,7 +10,7 @@ This project demonstrates an example financial component built to display catego
 To customize or modify the spreadsheet logic, navigate to the following file:
 
 \`\`\`
-src/SpreadsheetDemo.js
+src/components/SpreadsheetDemo.js
 \`\`\`
 
 Feel free to edit the code to suit your data requirements or enhance functionality.
